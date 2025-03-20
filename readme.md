@@ -52,10 +52,11 @@ sample.docm の初回起動時に限り teximgc.exe の登録先を指定する�
 &emsp;sample.docm 以外のファイルにマクロを組み込む場合は以下のように操作する．
 
 1. 「開発」→「Visual Basic」で表示される「Visual Basic for Application」のプロジェクトに LaTeXMacros.bas と *.cls をインポート
-2. 「ファイル」→「オプション」→「リボンのユーザー設定」→「ユーザー設定」→分類を「マクロ」に→プロジェクトの「保存先」を選択，と操作して以下のショートカットを割り当てる．
+1. ThisDocument.cls の内容を ThisDocument にコピー
+1. 「ファイル」→「オプション」→「リボンのユーザー設定」→「ユーザー設定」→分類を「マクロ」に→プロジェクトの「保存先」を選択，と操作して以下のショートカットを割り当てる．
     * LaTeXEntry　Alt-l
     * EqnNumber　Alt-n
-3. tex2imgc の登録先をカスタム属性に加えるため一旦保存して再起動
+1. tex2imgc の登録先をカスタム属性に加えるため一旦保存して再起動
 
 ### docx 形式への変換 
  
